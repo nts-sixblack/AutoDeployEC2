@@ -49,6 +49,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>autodeploy</finalName>
     </build>
 
 </project>
