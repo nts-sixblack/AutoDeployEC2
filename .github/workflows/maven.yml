@@ -35,6 +35,7 @@ jobs:
       name: SSH deploy
       with:
         host: ${{ secrets.SSH_HOST }}
+        port: ${{ secrets.PORT }}
         username: ${{ secrets.SSH_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
