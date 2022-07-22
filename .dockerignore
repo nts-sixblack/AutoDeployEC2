@@ -1,0 +1,11 @@
+.idea/
+*.iml
+*.iws
+target/
+.sonar/
+.sonarlint/
+
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
